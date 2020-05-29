@@ -1,2 +1,2 @@
 # deyuo
-The main site for the owners Mayu and Kurasad
+The site for the Shrime Maiden Jonin
