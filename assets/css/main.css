@@ -788,8 +788,8 @@ body {
     margin-left: 30px;
     margin-top: 5px;
 
-    -webkit-filter: drop-shadow(0px 0px 20px #FE477B);
-    filter: drop-shadow(0px 0px 20px #FE477B);
+    -webkit-filter: drop-shadow(0px 0px 10px #FE477B);
+    filter: drop-shadow(0px 0px 10px #FE477B);
     width:500px;
     height:auto;
     position: absolute;
@@ -1019,6 +1019,8 @@ body {
 }
 
 .work--lockup .slider--item-center .slider--item-image {
+    -webkit-filter: drop-shadow(0px 0px 20px #FE477B);
+    filter: drop-shadow(0px 0px 20px #FE477B);
     width: 300px;
     height: 300px
 }
@@ -1115,8 +1117,6 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 900px;
-    max-width: 75%;
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1228,20 +1228,19 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    max-width: 600px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding: 250px;
     list-style: none
 }
 
 .about--options>a {
     position: relative;
-    width: 150px;
-    height: 75px;
+    width: 390px;
+    height: 390px;
     text-decoration: none;
     color: #fff;
     border: 10px solid #FE477B;
@@ -1251,15 +1250,11 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/mayu.png")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
-}
-
-.about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/kurasad.png")
 }
 
 .about--options>a:hover h3 {
@@ -1276,9 +1271,9 @@ body {
     transition: bottom .2s ease-in-out, left .2s ease-in-out
 }
 
-@media (max-width: 767px) {
+@media (max-width: 590px) {
     .about--banner {
-        height: 305px
+        height: 590px
     }
 
     .about--banner::before {
@@ -1311,9 +1306,9 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 590px) {
     .about--banner {
-        height: auto
+        height: 590px
     }
 
     .about--banner::before {
@@ -1348,13 +1343,96 @@ body {
     }
 }
 
+.support {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+@media (max-width: 555px) {
+    .support {
+        max-width: 100%
+    }
+}
+
+.support--options {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    padding: 130px;
+    list-style: none
+}
+
+.support--options>a {
+    position: relative;
+    width: 355px;
+    height: 555px;
+    text-decoration: none;
+    color: #fff;
+    border: 10px solid #FE477B;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.support--options>a:nth-child(1) {
+    background-image: url("../img/tier1.png")
+}
+
+.support--options>a:nth-child(2) {
+    background-image: url("../img/tier2.png")
+}
+
+.support--options>a:nth-child(3) {
+    background-image: url("../img/tier3.png")
+}
+
+.support--options>a:hover h3 {
+    bottom: -50px
+}
+
+.support--options h3 {
+    position: absolute;
+    bottom: -38px;
+    left: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
+    transition: bottom .2s ease-in-out, left .2s ease-in-out
+}
+
+@media (max-width: 555px) {
+    .support--options {
+        display: none
+    }
+}
+
 .contact {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/contact-visual.png");
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
