@@ -1,2 +1,2 @@
-# Rozaliya
-The site for the Vodka Girl Rozaliya
+# Mayu
+The site for one of the [De~Yuo!](https://deyuo.gq/) weebs

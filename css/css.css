@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Philosopher Regular'), local('Philosopher-Regular'), url(https://fonts.gstatic.com/s/philosopher/v12/vEFV2_5QCwIS4_Dhez5jcWBuT0g.ttf) format('truetype');
+}
